@@ -1,195 +1,83 @@
-<h1 class="page-title">Nebula Headphones Collection</h1>
-<p class="page-subtitle">
-  Click any card to flip it and discover more about each model.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS 3D Clickable Flip Cards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="task1.css" />
+</head>
+<body>
+  <h1 class="page-title">Galaxy Drinks</h1>
+  <p class="page-subtitle">
+    Click a card to flip it and see what is inside each drink.
+  </p>
 
-<div class="wrapper">
-  <!-- CARD 1 -->
-  <div class="card">
-    <input type="checkbox" id="card1" class="more" aria-hidden="true">
-    <div class="content">
-      <div class="front"
-           style="background-image: url('https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=1350&q=80')">
-        <div class="inner">
-          <h2>Nebula Lite</h2>
-          <p class="tagline">Everyday wireless comfort</p>
-          <div class="rating">
-            ★ ★ ★ ★ ☆
-          </div>
-          <label for="card1" class="button" aria-hidden="true">
-            Details
-          </label>
+  <div class="card-grid">
+    <!-- CARD 1 -->
+    <div class="card">
+      <input type="checkbox" id="card1" class="card-toggle" />
+      <label for="card1" class="card-inner">
+        <div class="card-face card-front card-front--blue">
+          <h2>Stellar Lemonade</h2>
+          <p>Fresh, sparkling citrus with a hint of mint.</p>
+          <span class="hint">Click to see details</span>
         </div>
-      </div>
-      <div class="back">
-        <div class="inner">
-          <div class="info">
-            <span>20h</span>
-            <div class="icon">
-              <span>battery</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>BT 5.2</span>
-            <div class="icon">
-              <span>wireless</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>240g</span>
-            <div class="icon">
-              <span>weight</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>🎧</span>
-            <div class="icon">
-              <span>on-ear</span>
-            </div>
-          </div>
-          <div class="description">
-            <p>
-              Lightweight Bluetooth headphones designed for commuting, studying and casual listening.
-            </p>
-            <ul>
-              <li>Soft memory-foam ear cushions</li>
-              <li>Multipoint pairing for phone & laptop</li>
-              <li>USB-C fast charging (10 min → 3 h)</li>
-            </ul>
-          </div>
-          <div class="location">Ideal for: daily use & students</div>
-          <div class="price">from 49 €</div>
-          <label for="card1" class="button return" aria-hidden="true">
-            Back
-          </label>
+        <div class="card-face card-back">
+          <h3>Stellar Lemonade</h3>
+          <ul>
+            <li>Fresh lemon juice</li>
+            <li>Mint leaves</li>
+            <li>Light cane sugar</li>
+            <li>Carbonated water</li>
+          </ul>
+          <p class="price">3.90 €</p>
         </div>
-      </div>
+      </label>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card">
+      <input type="checkbox" id="card2" class="card-toggle" />
+      <label for="card2" class="card-inner">
+        <div class="card-face card-front card-front--purple">
+          <h2>Cosmic Berry</h2>
+          <p>Mixed berries with a soft vanilla note.</p>
+          <span class="hint">Click to see details</span>
+        </div>
+        <div class="card-face card-back">
+          <h3>Cosmic Berry</h3>
+          <ul>
+            <li>Blueberries & raspberries</li>
+            <li>Vanilla syrup</li>
+            <li>Crushed ice</li>
+            <li>Optional oat milk</li>
+          </ul>
+          <p class="price">4.50 €</p>
+        </div>
+      </label>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card">
+      <input type="checkbox" id="card3" class="card-toggle" />
+      <label for="card3" class="card-inner">
+        <div class="card-face card-front card-front--orange">
+          <h2>Solar Iced Tea</h2>
+          <p>Peach iced tea brewed with black tea leaves.</p>
+          <span class="hint">Click to see details</span>
+        </div>
+        <div class="card-face card-back">
+          <h3>Solar Iced Tea</h3>
+          <ul>
+            <li>Strong black tea</li>
+            <li>Peach puree</li>
+            <li>Simple syrup</li>
+            <li>Lemon slices & ice</li>
+          </ul>
+          <p class="price">3.50 €</p>
+        </div>
+      </label>
     </div>
   </div>
-
-  <!-- CARD 2 -->
-  <div class="card">
-    <input type="checkbox" id="card2" class="more" aria-hidden="true">
-    <div class="content">
-      <div class="front"
-           style="background-image: url('https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1350&q=80')">
-        <div class="inner">
-          <h2>Nebula Air</h2>
-          <p class="tagline">Silence for focus</p>
-          <div class="rating">
-            ★ ★ ★ ★ ★
-          </div>
-          <label for="card2" class="button" aria-hidden="true">
-            Details
-          </label>
-        </div>
-      </div>
-      <div class="back">
-        <div class="inner">
-          <div class="info">
-            <span>32h</span>
-            <div class="icon">
-              <span>battery</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>ANC</span>
-            <div class="icon">
-              <span>noise cancel</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>2</span>
-            <div class="icon">
-              <span>devices</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>🌙</span>
-            <div class="icon">
-              <span>night mode</span>
-            </div>
-          </div>
-          <div class="description">
-            <p>
-              Over-ear headphones with active noise cancellation for deep work, travel and long calls.
-            </p>
-            <ul>
-              <li>Adaptive ANC with transparency mode</li>
-              <li>Crystal-clear microphones for calls</li>
-              <li>Companion app with EQ presets</li>
-            </ul>
-          </div>
-          <div class="location">Ideal for: remote work & flights</div>
-          <div class="price">from 129 €</div>
-          <label for="card2" class="button return" aria-hidden="true">
-            Back
-          </label>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- CARD 3 -->
-  <div class="card">
-    <input type="checkbox" id="card3" class="more" aria-hidden="true">
-    <div class="content">
-      <div class="front"
-           style="background-image: url('https://images.unsplash.com/photo-1517322017473-1edcfeev1111?auto=format&fit=crop&w=1350&q=80')">
-        <div class="inner">
-          <h2>Nebula Studio Pro</h2>
-          <p class="tagline">For creators & audiophiles</p>
-          <div class="rating">
-            ★ ★ ★ ★ ★
-          </div>
-          <label for="card3" class="button" aria-hidden="true">
-            Details
-          </label>
-        </div>
-      </div>
-      <div class="back">
-        <div class="inner">
-          <div class="info">
-            <span>Hi-Res</span>
-            <div class="icon">
-              <span>audio</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>Wired</span>
-            <div class="icon">
-              <span>+ BT</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>Flat</span>
-            <div class="icon">
-              <span>tuning</span>
-            </div>
-          </div>
-          <div class="info">
-            <span>🎚️</span>
-            <div class="icon">
-              <span>studio</span>
-            </div>
-          </div>
-          <div class="description">
-            <p>
-              Reference-grade sound for mixing, mastering or just enjoying your favourite albums in detail.
-            </p>
-            <ul>
-              <li>Replaceable cable & ear pads</li>
-              <li>Low-latency monitoring mode</li>
-              <li>Semi-open design for wider soundstage</li>
-            </ul>
-          </div>
-          <div class="location">Ideal for: studio & home listening</div>
-          <div class="price">from 199 €</div>
-          <label for="card3" class="button return" aria-hidden="true">
-            Back
-          </label>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+</body>
+</html>
